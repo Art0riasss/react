@@ -1,6 +1,7 @@
 import React from 'react';
 import Shadow from "./components/shadow";
 import anime from "./img/Episode_23.png";
+import './styles/main.css'
 class App extends React.Component {
   clicked(){console.log('you clicked on it')}
   render() {
