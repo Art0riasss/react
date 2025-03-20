@@ -1,6 +1,7 @@
 import React from 'react';
 import Shadow from "./components/shadow";
 import anime from "./img/Episode_23.png";
+import wallpaper from "./img/porsche.png"
 import './styles/main.css'
 class App extends React.Component {
     constructor(props) {
@@ -18,7 +19,8 @@ class App extends React.Component {
             <input type='text' onChange={event => this.setState({ userData: event.target.value })}/>
           <button onClick={this.clicked}>Click Me!</button>
       <h1>App</h1>
-          <Shadow link={anime} />
+          <Shadow link={wallpaper} />
+
     </div>
     )
   }
